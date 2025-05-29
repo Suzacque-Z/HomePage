@@ -6,11 +6,13 @@
   <title>フェニックスのホームページ</title>
   <style>
     body{
-      background:#f5f5f5;
       font-family:sans-serif;
       text-align:center;
       padding-top:20vh;
       margin:0;
+      background:linear-gradient(90deg, red, orange, yellow, green, aqua, blue, purple);
+      background-size:400% 100%;
+      animation:bg-rainbow 20s linear infinite;
     }
     h1{
       font-size:3em;
@@ -22,6 +24,11 @@
       margin:0;
     }
     @keyframes rainbow{
+      0%{background-position:0% 50%;}
+      100%{background-position:100% 50%;}
+    }
+
+    @keyframes bg-rainbow{
       0%{background-position:0% 50%;}
       100%{background-position:100% 50%;}
     }
