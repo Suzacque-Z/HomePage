@@ -14,15 +14,17 @@
     }
     h1{
       font-size:2.5em;
-      background:linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
-      background-size:400% 100%;
+      font-weight:bold;
+      background:linear-gradient(270deg, red, orange, yellow, green, blue, indigo, violet, red);
+      background-size:800% 800%;
       -webkit-background-clip:text;
       color:transparent;
-      animation:rainbow 10s linear infinite;
+      animation:rainbow-slide 12s linear infinite;
     }
-    @keyframes rainbow{
+    @keyframes rainbow-slide{
       0%{background-position:0% 50%;}
-      100%{background-position:-400% 50%;}
+      50%{background-position:100% 50%;}
+      100%{background-position:0% 50%;}
     }
   </style>
 </head>
