@@ -44,7 +44,8 @@ TREE_TRUNK = (100, 80, 60)
 clock = pygame.time.Clock()
 FPS = 60
 GRAVITY = 0.8
-JUMP_STRENGTH = -15
+# ジャンプ力（上方向の速度）。もともとは-15だったが、2倍に強化する。
+JUMP_STRENGTH = -30
 
 class Player:
     def __init__(self, x, y):
