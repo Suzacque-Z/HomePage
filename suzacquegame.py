@@ -521,6 +521,12 @@ def main():
         Enemy(300, SCREEN_HEIGHT - 60 - 35),
         Enemy(500, SCREEN_HEIGHT - 60 - 300 - 35),
         Enemy(750, SCREEN_HEIGHT - 60 - 35),
+        Enemy(150, SCREEN_HEIGHT - 60 - 35),
+        Enemy(425, SCREEN_HEIGHT - 60 - 100 - 35),
+        Enemy(575, SCREEN_HEIGHT - 60 - 200 - 35),
+        Enemy(650, SCREEN_HEIGHT - 60 - 300 - 35),
+        Enemy(875, SCREEN_HEIGHT - 60 - 150 - 35),
+        Enemy(950, SCREEN_HEIGHT - 60 - 35),
     ]
     
     initial_coin_count = 7
@@ -548,6 +554,12 @@ def main():
                         Enemy(300, SCREEN_HEIGHT - 60 - 35),
                         Enemy(500, SCREEN_HEIGHT - 60 - 300 - 35),
                         Enemy(750, SCREEN_HEIGHT - 60 - 35),
+                        Enemy(150, SCREEN_HEIGHT - 60 - 35),
+                        Enemy(425, SCREEN_HEIGHT - 60 - 100 - 35),
+                        Enemy(575, SCREEN_HEIGHT - 60 - 200 - 35),
+                        Enemy(650, SCREEN_HEIGHT - 60 - 300 - 35),
+                        Enemy(875, SCREEN_HEIGHT - 60 - 150 - 35),
+                        Enemy(950, SCREEN_HEIGHT - 60 - 35),
                     ]
                     coins = [
                         Coin(250, SCREEN_HEIGHT - 60 - 100 - 40),
