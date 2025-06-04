@@ -45,6 +45,18 @@
   <hr />
   <p>好きな AI は Gemini です。</p>
   <p>好きな色は赤です。</p>
+  <p id="quote"></p>
   <button onclick="location.reload()">更新</button>
+  <script>
+    const quotes = [
+      "今日も一日頑張りましょう！",
+      "笑顔は最高の薬です。",
+      "小さな進歩でも続ければ大きな成果になります。",
+      "前向きな心が未来を作ります。",
+      "休むことも大切な仕事です。"
+    ];
+    document.getElementById("quote").textContent =
+      quotes[Math.floor(Math.random() * quotes.length)];
+  </script>
 </body>
 </html>
